@@ -262,7 +262,7 @@ if __name__ == "__main__":
 
 ```text
 Laboratorio-SQLi/
-├── app.py
+├── lab_pagina.py
 ├── database.db          # Gerado ao executar o script
 ├── requirements.txt
 └── README.md
@@ -398,9 +398,10 @@ Senha: admin123
 
 ![Principais Comandos Linux](./imagem1.png)
 
+Login bem sucedido:
 ![Principais Comandos Linux](./imagem2.png)
 
-Utilize as credenciais do comum:
+Utilize as credenciais do usuário comum:
 
 ```text
 Usuário: user
@@ -410,6 +411,7 @@ Senha: user123
 
 ![Principais Comandos Linux](./imagem1.1.png)
 
+Login bem sucedido:
 ![Principais Comandos Linux](./imagem2.2.png)
 
 ### Teste 2 — Credenciais inválidas
