@@ -544,7 +544,7 @@ Se a senha não corresponder, essa parte da expressão será falsa. Como consequ
 
 **Conclusão:** compreender a precedência dos operadores lógicos é essencial para analisar o comportamento de uma consulta vulnerável a SQL Injection.
 
-# 10. Análise de comentários SQL e condições booleanas
+# 🧪 9. Análise de comentários SQL e condições booleanas
 
 Em aplicações que concatenam diretamente os valores fornecidos pelo usuário, comentários SQL e operadores lógicos podem alterar a interpretação da consulta original.
 
@@ -591,7 +591,7 @@ Por exemplo, uma condição como:
 **Importante:** acrescentar uma condição verdadeira não garante, por si só, que um usuário específico, como `admin`, será selecionado.
 
 
-## 🛡️ 11. Como corrigir a vulnerabilidade
+## 🛡️ 10. Como corrigir a vulnerabilidade
 
 A medida principal é substituir a concatenação direta por uma consulta parametrizada.
 
@@ -622,7 +622,7 @@ O SQLite trata os valores fornecidos como parâmetros, impedindo que esses valor
 
 > **Observação:** parametrizar a consulta é essencial para prevenir SQL Injection, mas não substitui o armazenamento seguro de senhas nem as demais medidas de proteção de autenticação.
 
-## 📋 12. Checklist de testes
+## 📋 11. Checklist de testes
 
 - [ ] Aplicação iniciada sem erros.
 - [ ] Página de login acessível localmente.
@@ -636,7 +636,7 @@ O SQLite trata os valores fornecidos como parâmetros, impedindo que esses valor
 - [ ] Testes repetidos após a correção.
 - [ ] Modo de depuração desativado para qualquer implantação.
 
-## 📚 13. Conceitos estudados
+## 📚 12. Conceitos estudados
 
 - SQL Injection (SQLi)
 - Autenticação baseada em banco de dados
